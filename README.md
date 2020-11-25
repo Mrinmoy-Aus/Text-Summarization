@@ -169,25 +169,3 @@ The encoder decoder network performed rather poorly in comparison to the extract
 ### Conclusions
 In conclusion, the TextRank summarization method was very effective in choosing important sentences. As a further extension to the TextRank algorithm, it would be worthwhile to experiment with more ways of choosing “connections” from words to other words. Instead of using the proximity of words to other words in sentences, there may be other ways to measure connections between words, such as using proximity to other words with high connection to the word in question.
 The encoder-decoder network was found to be less effective than TextRank, likely because abstractive methods in general are less flexible and more susceptible to error than extractive methods, especially since words not in the text can be used. The next steps in improving the encoder-decoder network are to train on a larger training set, experiment with model hyper-parameters, use beam search, and explore different preprocessing methods.
-
-
-### References
-1.Jing, Hongyan. “Sentence Reduction for Automatic Text Summarization.” Proceedings of the Sixth Conference on Applied Natural Language Processing -, 2000, doi:10.3115/974147.974190.
-2.Garg, Sneh, and Sunil Chhillar. “Review of Text Reduction Algorithms and Text Reduction Using Sentence Vectorization.” International Journal of Computer Applications, vol. 107, no. 12, 2014, pp. 39–42., doi:10.5120/18806-0380.
-3.JRC1995. “JRC1995/Abstractive-Summarization.” GitHub, github.com/JRC1995/Abstractive-Summarization/blob/master/Summarization_model.ipynb.
-4.“A Gentle Introduction to Text Summarization.” Machine Learning Mastery, 21 Nov. 2017, machinelearningmastery.com/gentle-introduction-text-summarization/.
-5.“A Survey of Relevant Text Content Summarization Techniques.” International Journal of Science and Research (IJSR), vol. 5, no. 1, 2016, pp. 129–132., doi:10.21275/v5i1.nov152644.
-6.“Text Summarization in Python: Extractive vs. Abstractive Techniques Revisited.” Pragmatic Machine Learning, rare-technologies.com/text-summarization-in-python-extractive-vs-abstractive-techniques-revisited/.
-7.“Neural Machine Translation (seq2seq) Tutorial | TensorFlow.” TensorFlow, www.tensorflow.org/tutorials/seq2seq.
-8.“Encoder-Decoder Long Short-Term Memory Networks.” Machine Learning Mastery, 20 July 2017, machinelearningmastery.com/encoder-decoder-long-short-term-memory-networks/.
-9.Dalalkrish. “Dalalkrish/Text-Summarization-Keras.” GitHub, github.com/dalalkrish/text-summarization-keras/blob/master/Text_Summarization.ipynb.
-10.“Text Summarization with TensorFlow.” Google AI Blog, 24 Aug. 2016, ai.googleblog.com/2016/08/text-summarization-with-tensorflow.html.
-11.llSourcell. “LlSourcell/How_to_make_a_text_summarizer.” GitHub, github.com/llSourcell/How_to_make_a_text_summarizer/blob/master/train.ipynb.
-
-
-
-### Contact
-
-Michelle Zhao
-mzhao@caltech.edu
-
